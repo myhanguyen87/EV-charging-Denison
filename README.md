@@ -11,7 +11,7 @@ Denison University is committed to addressing climate change and recognizes the 
     <li><a href="#Requirements">Requirements</a></li>
     <li><a href="#CodeFiles">Code Files</a></li>
     <li><a href="#DataFiles">Data Files</a></li>
-    <li><a href="#How To Use">How To Use</a></li>
+    <li><a href="#HowToUse">How To Use</a></li>
     <li><a href="#Contribute">Contribute</a></li>
     <li><a href="#Credits">Credit</a></li>
   </ol>
@@ -19,10 +19,10 @@ Denison University is committed to addressing climate change and recognizes the 
 
 ### Motivation
 ### Authors
-### Build Status
+### BuildStatus
 ### Requirements
 ### CodeFiles
 ### DataFiles
-### How To Use
+### HowToUse
 ### Contribute
 ### Credits
