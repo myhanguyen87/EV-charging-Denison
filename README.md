@@ -1,5 +1,5 @@
 # Charge Point Utilization
-This is a project to analyze and recommend the trends of EV charging usage at Denison University from 2019 to current
+Denison University is committed to addressing climate change and recognizes the impact of vehicle operations on its carbon footprint. To align with sustainability goals, the university is establishing an electric vehicle (EV) charging infrastructure on campus, encouraging EV adoption. Challenges, such as charging time and network expansion, need to be addressed. Therefore, we, the DA301 "Charged" team, are committed to generating crucial insights that inform strategic decisions. Our primary objective is to provide the Campus Sustainability Committee with a comprehensive five-year plan outlining the effective implementation of electric vehicle (EV) chargers across Denison University's campus. This will be achieved through in-depth analyses of charger usage patterns, the identification of peak demand times, and the provision of recommendations aimed at enhancing usage efficiency.
 <a name="readme-top"></a>
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -17,4 +17,5 @@ This is a project to analyze and recommend the trends of EV charging usage at De
   </ol>
 </details>
 
+###
 ### Authors
