@@ -23,7 +23,9 @@ Denison University is committed to addressing climate change and recognizes the 
 ## Motivation
 Our primary motivation is to align with Denison University's sustainability goals. Denison is embarking on a journey to add more  electric vehicle (EV) charging infrastructures on campus, a significant step towards encouraging the adoption of EVs among our community members. Therefore, our motivation is to drive Denison University towards a future where EVs play a central role in reducing our carbon footprint. With five chargers supporting the university's vehicle fleet transition to electric vehicles and facilitating personal electric vehicle usage for faculty, staff, and students, the project aims to explore potential opportunities and optimize charging strategies.
 To be successful, we must have a clear understanding of EV user behavior and the flexibility to optimize infrastructure and policy. Our recommendations will be rooted in rigorous data insights, ensuring they reflect the real needs and potentialities of the University. Moreover, it is not just to provide EV charging but to transform Denison into a hub of sustainable mobility, making a positive impact on our community, environment, and the future of transportation. 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Authors
 We are a dedicated group of students at Denison University, each specializing in diverse academic fields. This collaborative project is a part of our coursework in the DA 301-01 Practicum in Data Analytics, supervised by Professor Alexandre Scarcioffolo.
 
@@ -45,14 +47,23 @@ Our team comprises four highly motivated members, each bringing unique skills an
   - le_a2@denison.edu
 
 Together, we form a dynamic team with a shared passion for data analysis and a commitment to making a positive impact on Denison University's sustainability efforts.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## BuildStatus
 In certain instances in the dataset "charging_points_data", even when the "Charging Time" (hh:mm:ss) is non-zero, we encounter a situation where the associated value in the "Energy (kWh)" column remains zero. We have not found the answers of why this happens in our dataset, since if a vehicle's Charging Time is not zero, we would expect the Energy Consumption to also be non-zero. Additionally, we created a new variable named “Idle time” by subtracting values in “Total Duration (hh:mm:ss)” by “Charging Time (hh:mm:ss)” in our "Denison EVC v2" dataset. From this new variable, there is a new error such that some idle times turn out to be negative. However, "Total Duration" should always be bigger than "Charging Time", thus negative values are impossible. We have not found the answers for this error as well, so we decided to remove these negative values out of our statistical tests. 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Requirements
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## CodeFiles
 Include tableu files and excel files from Suryansh 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### DataFiles
 All included under folder named “DATA” on shared Drive
 | Data file name     | Access  | Description | Usage |
@@ -61,11 +72,17 @@ All included under folder named “DATA” on shared Drive
 |  Denison EVC v2  | Private   | CSV file of clean data. We removed data points with zero or null values for variable “Energy (kWh)”, and created new variable “Idle time” by subtracting values in “Total Duration (hh:mm:ss)” by “Charging Time (hh:mm:ss)”. | Post-processing data for analysis |
 | Utility Data for DA students.xlsx  | Private   | CSV data file from Denison Sustainability department detailing overall energy use and cost across campus.  |Reference for correlation between energy consumption with EV charging facility on Denison campus|
 | Station_Provision_Logs-20231009Kenyon  | Private  | Raw CSV data file directly from Charge Point system for usage on Kenyon College campus  | Reference for usage comparision and analysis|
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Illustrations
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## HowToUse
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Contribute
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. While we appreciate your interest in contributing, please note that this project is closely aligned with the Denison University Sustainability Department and our DA 301-01 class. 
 
@@ -85,10 +102,12 @@ To collaborate with our team, please follow these general steps:
 3. Commit your Changes (git commit -m 'Add some YourFeature')
 4. Push to the Branch (git push origin feature/YourFeature)
 5. Open a Pull Request
+   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Credits
 We would like to express our gratitude to the following individuals and organizations for their invaluable contributions and support throughout this project:
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 **Consultants:**
 - **Chris Wolfington**
   - *Principal Consultant, Ground Truth Energy*
@@ -109,4 +128,5 @@ We are grateful to Denison's Sustainability Department and Business Services for
 - **Denison University**
   
 We extend our gratitude to Professor Alexandre Scarcioffolo for his unwavering support, guidance, and feedback throughout the project. His mentorship has been instrumental in our journey.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
