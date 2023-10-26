@@ -16,7 +16,7 @@ Denison University is committed to addressing climate change and recognizes the 
     <li><a href="#Illustrations">Illustrations</a></li>
     <li><a href="#HowToUse">How To Use</a></li>
     <li><a href="#Contribute">Contribute</a></li>
-    <li><a href="#Credits">Credits</a></li>
+    <li><a href="#Acknowledgement">Acknowledgement</a></li>
   </ol>
 </details>
 
@@ -73,15 +73,15 @@ Please ensure you have the specified software and packages installed and configu
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## CodeFiles
-Include tableu files and excel files from Suryansh 
+Include R file from Lena 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### DataFiles
+## DataFiles
 All included under folder named “DATA” on shared Drive
 | Data file name     | Access  | Description | Usage |
 |----------|------|------------|----------|
-| charging_points_data     | Can be accessible through Charge Point account  | The EV chargers at Denison University are manufactured by Charge Point.This is a CSV file of raw data directly from Charge Point system on Denison campus for 5 charging stations in the parking lots of: Michael D. Eisner Center for the Performing Arts, Mitchell Recreation and Athletics Center, Swasey Chapel, Slayter Hall Student Union (P1), Granville Inn. | Pre-processing data for reference|
+| charging_points_data     | Can be accessible through Charge Point account with consent of Denison Sustainability Department | The EV chargers at Denison University are manufactured by Charge Point.This is a CSV file of raw data directly from Charge Point system on Denison campus for 5 charging stations in the parking lots of: Michael D. Eisner Center for the Performing Arts, Mitchell Recreation and Athletics Center, Swasey Chapel, Slayter Hall Student Union (P1), Granville Inn. | Pre-processing data for reference|
 |  Denison EVC v2  | Private   | CSV file of clean data. We removed data points with zero or null values for variable “Energy (kWh)”, and created new variable “Idle time” by subtracting values in “Total Duration (hh:mm:ss)” by “Charging Time (hh:mm:ss)”. | Post-processing data for analysis |
 | Utility Data for DA students.xlsx  | Private   | CSV data file from Denison Sustainability department detailing overall energy use and cost across campus.  |Reference for correlation between energy consumption with EV charging facility on Denison campus|
 | Station_Provision_Logs-20231009Kenyon  | Private  | Raw CSV data file directly from Charge Point system for usage on Kenyon College campus  | Reference for usage comparision and analysis|
@@ -89,11 +89,17 @@ All included under folder named “DATA” on shared Drive
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Illustrations
+Include one output from Lena's works
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## HowToUse
+To access and utilize the data and findings from this project, please follow these steps:
+1. **Create a Charge Point Account:** Begin by creating an account on Charge Point using the following link: [Charge Point Account Creation](https://www.chargepoint.com/drivers/activate).
+2. **Request Access to Denison Charging Points Data:** Since our data is private, you can request access to the "charging_points_data" from Denison Sustainability Department. For more information and access requests, please visit the Denison Sustainability Department website: [Denison Sustainability Department](https://denison.edu/campus/green).
 
+These steps will allow you to access our analysis and findings for this project, as well as the relevant data. If you have any further questions or need assistance, please feel free to contact us.
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contribute
@@ -107,18 +113,13 @@ Here's how you can get involved:
 
 However, please be aware that any external analyses and contributions will not be merged into our code files or change our project documents. This distinction helps maintain the integrity of the project while allowing you to explore and build upon the data.
 
-We appreciate your support and thank you for your understanding
-To collaborate with our team, please follow these general steps:
+Our practice respects our clients' discretion in sharing our analysis and findings with the public. If you have any additional inquiries, please don't hesitate to reach out to us via our email address or through the Denison Sustainability Department.   
 
-1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/YourFeature)
-3. Commit your Changes (git commit -m 'Add some YourFeature')
-4. Push to the Branch (git push origin feature/YourFeature)
-5. Open a Pull Request
-   
+We appreciate your support and thank you for your understanding
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Credits
+## Acknowledgement
 We would like to express our gratitude to the following individuals and organizations for their invaluable contributions and support throughout this project:
 
 **Consultants:**
@@ -135,7 +136,7 @@ These dedicated consultants provided us with crucial background knowledge and de
 - **Jeremy King**
   - *Director of Sustainability & Campus Improvement, Denison University*
     
-We are grateful to Denison's Sustainability Department and Business Services for entrusting us with this project and for their valuable feedback that has significantly enhanced the quality of our work.
+We appreciate Denison's Sustainability Department for entrusting us with this project and for their valuable feedback that has significantly enhanced the quality of our work.
 
 **Professor Alexandre Scarcioffolo:**
 - **Denison University**
