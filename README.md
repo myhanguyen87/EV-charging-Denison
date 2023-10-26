@@ -26,7 +26,7 @@ To be successful, we must have a clear understanding of EV user behavior and the
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Authors
+## Authors
 We are a dedicated group of students at Denison University, each specializing in diverse academic fields. This collaborative project is a part of our coursework in the DA 301-01 Practicum in Data Analytics, supervised by Professor Alexandre Scarcioffolo.
 
 Our team comprises four highly motivated members, each bringing unique skills and expertise to the table:
@@ -56,6 +56,19 @@ In certain instances in the dataset "charging_points_data", even when the "Charg
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Requirements
+To run the code and analysis for this project, we will need the following software and packages:
+
+- **RStudio** (Version 2023.09.1+494) - For data analysis and statistical modeling.
+- **Packages:**
+  - `tidyverse` - Used for data manipulation and visualization.
+  - `readr` - Used for reading and handling data.
+  - `Anova` - Required for conducting statistical Anova tests.
+  - `post hoc` - For post-hoc analyses.
+- **Excel** -  **Excel for Mac (version 16.67), running on macOS Big Sur 11.5.2** for data cleaning in preparation for statistical tests.
+- **Tableau** - Require **Tableau Desktop Professional Edition (Version 2023.2.0)** or later for data visualization.
+
+Please ensure you have the specified software and packages installed and configured to effectively run the code, access the data, and view the analysis output.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
