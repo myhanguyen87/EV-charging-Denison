@@ -107,9 +107,9 @@ Contributions are what make the open source community such an amazing place to l
 
 Here's how you can get involved:
 
-- **Analyze Data:** Feel free to conduct your own analysis. You can find the data on Charge Point by creating your own account and accessing the relevant pre-processing resources.
+- **Analyze Data:** Feel free to conduct your own analysis. However, to access the data, you will need the agreement and permission from Denison Sustainability Department. You can find the data on Charge Point by creating your own account and accessing the relevant primary resources.
 
-- **Provide Feedback:** If you have suggestions to improve the project or any insightful observations, please share your thoughts. You can do this by opening an issue with the tag "enhancement."
+- **Provide Feedback:** If you have suggestions to improve the project or any insightful observations, please share your thoughts.
 
 However, please be aware that any external analyses and contributions will not be merged into our code files or change our project documents. This distinction helps maintain the integrity of the project while allowing you to explore and build upon the data.
 
