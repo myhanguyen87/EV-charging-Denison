@@ -91,11 +91,11 @@ All included under folder named “DATA” on shared Drive
 ## Illustrations
 In the section that follows, we will showcase examples of our work that have stemmed from the project.
 
-### Example: Code Snippet
+### Code Snippet
 
 For instance, here's a code snippet from our "Denison EVC Stat Test.html" file:
 
-<img src="Screenshot 2023-10-27 at 11.45.59.png" width="400" height="300">
+<img src="Screenshot 2023-10-27 at 11.45.59.png" width="600" height="300">
 <figcaption>Figure 1: Statistical Test for Idle time across Stations</figcaption>
 Our post hoc test from [Figure 1] above indicates that there are significant differences in the average idle time between charging stations. The users of different charging locations tend to leave their charged cars plugged in for different amounts of times such as below:
 
@@ -109,8 +109,16 @@ Our post hoc test from [Figure 1] above indicates that there are significant dif
 | Chapel Lot        | 156.42 min              |
 | Parking Garage    | 156.93 min              |
 
+### Graphs
+These are our illustration derived from the preprocessed dataset. 
+<img src="Screenshot 2023-10-27 at 11.46.36.png" width="600" height="300">
+<figcaption>Figure 2: Sum of Total Duration plugged in Minutes by Month</figcaption>
 
+<img src="Screenshot 2023-10-27 at 11.46.58.png" width="600" height="300">
+<figcaption>Figure 3: Average Idle Time</figcaption>
 
+<img src="chartCostEnergyDa301.png" width="600" height="300">
+<figcaption>Figure 4: Cost of Energy in USD</figcaption>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
