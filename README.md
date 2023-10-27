@@ -73,7 +73,7 @@ Please ensure you have the specified software and packages installed and configu
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## CodeFiles
-Include R file from Lena 
+At present, we have a separate file, "Denison EVC Stat Test.html," designed for running the statistical test. In the future, as we delve into recommendations for future usage and the additional charge point section, we intend to consolidate the associated code into the same file mentioned above. It's important to note that this file is executed in R Studio, with the specified version detailed in the Requirements section (please refer to the Table of Contents). 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
