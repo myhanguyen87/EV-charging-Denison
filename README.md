@@ -89,7 +89,28 @@ All included under folder named “DATA” on shared Drive
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Illustrations
-Include one output from Lena's works
+In the section that follows, we will showcase examples of our work that have stemmed from the project.
+
+### Example: Code Snippet
+
+For instance, here's a code snippet from our "Denison EVC Stat Test.html" file:
+
+<img src="Screenshot 2023-10-27 at 11.45.59.png" width="400" height="300">
+<figcaption>Figure 1: Statistical Test for Idle time across Stations</figcaption>
+Our post hoc test from [Figure 1] above indicates that there are significant differences in the average idle time between charging stations. The users of different charging locations tend to leave their charged cars plugged in for different amounts of times such as below:
+
+### Average Idle Time (min) for Every Plug-in Time Across Stations
+
+| Charging Station   | Average Idle Time (min) |
+|-------------------|--------------------------|
+| Mitchell Center   | 13.13 min               |
+| Granville Inn     | 65.04 min               |
+| Eisner Center     | 96.73 min               |
+| Chapel Lot        | 156.42 min              |
+| Parking Garage    | 156.93 min              |
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
