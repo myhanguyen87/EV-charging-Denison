@@ -9,12 +9,7 @@ Denison University is committed to addressing climate change and recognizes the 
   <ol>
     <li><a href="#Motivation">Motivation</a></li>
     <li><a href="#Authors">Authors</a></li>
-    <li><a href="#BuildStatus">Build Status</a></li>
-    <li><a href="#Requirements">Requirements</a></li>
-    <li><a href="#CodeFiles">Code Files</a></li>
-    <li><a href="#DataFiles">Data Files</a></li>
-    <li><a href="#Illustrations">Illustrations</a></li>
-    <li><a href="#HowToUse">How To Use</a></li>
+    <li><a href="#HowToAccess">How To Use</a></li>
     <li><a href="#Contribute">Contribute</a></li>
     <li><a href="#Acknowledgement">Acknowledgement</a></li>
   </ol>
@@ -50,85 +45,21 @@ Together, we form a dynamic team with a shared passion for data analysis and a c
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## BuildStatus
-In certain instances in the dataset "charging_points_data", even when the "Charging Time" (hh:mm:ss) is non-zero, we encounter a situation where the associated value in the "Energy (kWh)" column remains zero. We have not found the answers of why this happens in our dataset, since if a vehicle's Charging Time is not zero, we would expect the Energy Consumption to also be non-zero. Additionally, we created a new variable named “Idle time” by subtracting values in “Total Duration (hh:mm:ss)” by “Charging Time (hh:mm:ss)” in our "Denison EVC v2" dataset. From this new variable, there is a new error such that some idle times turn out to be negative. However, "Total Duration" should always be bigger than "Charging Time", thus negative values are impossible. We have not found the answers for this error as well, so we decided to remove these negative values out of our statistical tests. 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Requirements
-To run the code and analysis for this project, we will need the following software and packages:
-
-- **RStudio** (Version 2023.09.1+494) - For data analysis and statistical modeling.
-- **Packages:**
-  - `tidyverse` - Used for data manipulation and visualization.
-  - `readr` - Used for reading and handling data.
-  - `Anova` - Required for conducting statistical Anova tests.
-  - `post hoc` - For post-hoc analyses.
-- **Excel** -  **Excel for Mac (version 16.67), running on macOS Big Sur 11.5.2** for data cleaning in preparation for statistical tests.
-- **Tableau** - Require **Tableau Desktop Professional Edition (Version 2023.2.0)** or later for data visualization.
-
-Please ensure you have the specified software and packages installed and configured to effectively run the code, access the data, and view the analysis output.
+## HowToAccess
+All electronic documents are stored under folder named “Final” on shared Drive
+| File path  | Description |
+|----------|----------|
+| Final/DATA | A folder includes all the data files used for this project, which comprises of Data Archives, Data Documentation, raw data and clean data. |
+| Final/DATA/Data Archives |  This is a folder stored all the data that we have cleaned, manipulated, and editted for our analysis. |
+| Final/DATA/Documentation |  This is a folder stored the documentation of all data that we have been used this semester. |
+| Final/Technical Report | This is a folder stored the cumulative knowledge that we have gained this semester. |
+| Final/Executive Summary |  This is a folder stored the high-level summary of what we accomplished this semester. |
+| Final/Products |  This is a folder stored a Code Files folder, which is the output of our statistical analysis, and a Tableu- User Analysis folder that contains our interactive dashboard. |
+| Final/Presentation |  This is a folder stored presentation slide for our final presentations with the clients. |
+|Final/Operations| This is a folder stored all of our progress throughout this semester|
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## CodeFiles
-At present, we have a separate file, "Denison EVC Stat Test.html," designed for running the statistical test. In the future, as we delve into recommendations for future usage and the additional charge point section, we intend to consolidate the associated code into the same file mentioned above. It's important to note that this file is executed in R Studio, with the specified version detailed in the Requirements section (please refer to the Table of Contents). 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## DataFiles
-All included under folder named “DATA” on shared Drive
-| Data file name     | Access  | Description | Usage |
-|----------|------|------------|----------|
-| charging_points_data     | Can be accessible through Charge Point account with consent of Denison Sustainability Department | The EV chargers at Denison University are manufactured by Charge Point.This is a CSV file of raw data directly from Charge Point system on Denison campus for 5 charging stations in the parking lots of: Michael D. Eisner Center for the Performing Arts, Mitchell Recreation and Athletics Center, Swasey Chapel, Slayter Hall Student Union (P1), Granville Inn. | Pre-processing data for reference|
-|  Denison EVC v2  | Private   | CSV file of clean data. We removed data points with zero or null values for variable “Energy (kWh)”, and created new variable “Idle time” by subtracting values in “Total Duration (hh:mm:ss)” by “Charging Time (hh:mm:ss)”. | Post-processing data for analysis |
-| Utility Data for DA students.xlsx  | Private   | CSV data file from Denison Sustainability department detailing overall energy use and cost across campus.  |Reference for correlation between energy consumption with EV charging facility on Denison campus|
-| Station_Provision_Logs-20231009Kenyon  | Private  | Raw CSV data file directly from Charge Point system for usage on Kenyon College campus  | Reference for usage comparision and analysis|
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Illustrations
-In the section that follows, we will showcase examples of our work that have stemmed from the project.
-
-### Code Snippet
-
-For instance, here's a code snippet from our "Denison EVC Stat Test.html" file:
-
-<img src="Screenshot 2023-10-27 at 11.45.59.png" width="600" height="300">
-<figcaption>Figure 1: Statistical Test for Idle time across Stations</figcaption>
-Our post hoc test from [Figure 1] above indicates that there are significant differences in the average idle time between charging stations. The users of different charging locations tend to leave their charged cars plugged in for different amounts of times such as below:
-
-### Average Idle Time (min) for Every Plug-in Time Across Stations
-
-| Charging Station   | Average Idle Time (min) |
-|-------------------|--------------------------|
-| Mitchell Center   | 13.13 min               |
-| Granville Inn     | 65.04 min               |
-| Eisner Center     | 96.73 min               |
-| Chapel Lot        | 156.42 min              |
-| Parking Garage    | 156.93 min              |
-
-### Graphs
-These are our illustration derived from the preprocessed dataset. 
-<img src="Screenshot 2023-10-27 at 11.46.36.png" width="600" height="300">
-<figcaption>Figure 2: Sum of Total Duration plugged in Minutes by Month</figcaption>
-
-<img src="Screenshot 2023-10-27 at 11.46.58.png" width="600" height="300">
-<figcaption>Figure 3: Average Idle Time</figcaption>
-
-<img src="chartCostEnergyDa301.png" width="600" height="300">
-<figcaption>Figure 4: Cost of Energy in USD</figcaption>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## HowToUse
-To access and utilize the data and findings from this project, please follow these steps:
-1. **Create a Charge Point Account:** Begin by creating an account on Charge Point using the following link: [Charge Point Account Creation](https://www.chargepoint.com/drivers/activate).
-2. **Request Access to Denison Charging Points Data:** Since our data is private, you can request access to the "charging_points_data" from Denison Sustainability Department. For more information and access requests, please visit the Denison Sustainability Department website: [Denison Sustainability Department](https://denison.edu/campus/green).
-
-These steps will allow you to access our analysis and findings for this project, as well as the relevant data. If you have any further questions or need assistance, please feel free to contact us.
-  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contribute
